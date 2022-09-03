@@ -1,0 +1,14 @@
+This is a simple template for a thesis
+Some standard packages are imported, although their use might not directly be apparent
+Best thing to do is go through a quick course on overleaf and latex, e.g. https://www.udemy.com/course/mastering-latex/ - play on double speed and you'll have the basics down
+This template is divided into a few simple sections, to start:
+
+-- Check your Overleaf settings on "Menu" - can set spellchecking language here, rest should really be fine as is
+-- Fill in your details in "fill-in.tex"
+-- Make sure to link your Zotero/Mendeley account to Overleaf 
+-- Can also link your Overleaf account to Dropbox to keep a synced copy there - sync can go both ways, so can offline edit your tex files if need be
+-- Check out the "hot keys" under the Overleaf menu
+-- Edit the tex files in "1-front-matter" one by one, the "main.tex" file can help order this section to your leisure
+-- The main-document.tex have info on how to lay out the document, and contains the preamble - add packages here if need be and use this part of the document to lay out the remainder of the document
+-- Before freaking out, try to "Compile from scratch" on overleaf instead of just a recompile - usually fixes funky errors
+

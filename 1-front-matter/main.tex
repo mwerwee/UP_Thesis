@@ -1,0 +1,29 @@
+\pagenumbering{gobble}
+\pagenumbering{roman}
+\thispagestyle{headings}
+
+\input{1-front-matter/title-page}
+\input{1-front-matter/abstract}
+\input{1-front-matter/declaration-on-plagiarism}
+\input{1-front-matter/dedication}
+\input{1-front-matter/acknowledgements}
+
+% Table of contents, list of figures, list of tables
+\tableofcontents
+\listoffigures
+\listoftables
+
+% Glossary and nomenclature
+% Nomenclature and abbreviations
+\clearpage
+\input{1-front-matter/nomenclature}   
+
+\printglossary
+\cleardoublepage
+
+\pagenumbering{arabic}
+\pagestyle{headings}
+\setlength{\headheight}{15.2pt}
+\setlength{\headsep}{10pt}
+\pagestyle{fancy}
+\renewcommand{\footrulewidth}{0.4pt}

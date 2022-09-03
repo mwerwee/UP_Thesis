@@ -1,0 +1,64 @@
+\documentclass[a4paper,12pt]{report}
+
+% Fill in your details in this file first, used when generating the title page
+\input{fill-in}
+
+\usepackage[utf8]{inputenc}
+
+%
+\usepackage{titlesec}
+
+% For British English way of writing dates
+\usepackage[english]{isodate} 
+
+\usepackage{float}
+
+% For figures
+\usepackage{graphicx}
+
+% Set margins to 2 cm
+\usepackage[margin=2cm]{geometry}  
+
+% Use the fancy header page style
+\usepackage{fancyhdr}  
+
+% For generating the nomenclature
+\usepackage{nomencl}
+
+% For generating a glossary for abbreviations, etc.
+\usepackage{glossaries} 
+
+% This package ensure that there is no indent when a new paragraph is started
+\usepackage[parfill]{parskip}
+
+\input{1-front-matter/glossary}
+
+% If you are using overleaf, you can link your Zotero or Mendeley account to Overleaf.
+% Once linked, you will be able to export a bibtex file to your overleaf folder (root in this document) - recompile once you've added a new reference to be able to site it
+% To upload from, e.g. Zotero, just click on the "upload" button in overleaf and export your bib file
+\usepackage{biblatex} %Imports biblatex package
+\addbibresource{references.bib} %Import the bibliography file
+
+\usepackage{appendix}
+
+% For chemistry stuff:
+\usepackage[version=4]{mhchem}
+
+% For maths stuff:
+\usepackage{amssymb}
+
+% This helps navigation in the document - the red boxes will not be present in your final PDF, but what it boxes in will be a live hyperlink in the document
+\usepackage{hyperref}
+
+
+% The main document
+
+\begin{document}
+
+\input{1-front-matter/main}
+\input{2-content/20-chapter-1-introduction/main}
+\input{3-appendices/appendices}
+\input{4-back-matter/references}
+
+
+\end{document}
